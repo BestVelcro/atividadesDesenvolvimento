@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Tela Inicial</title>
+        <link rel="stylesheet" href="/style.css">
+    
+    <script src="/script.js" defer></script>
+  </head>
+  <body onload="carregarprodutos()">
+  <h1>
+    Cadastro de produtos!
+    </h1>
+        <input type="text" id="cadastroproduto" value="">
+    <input type="submit" value="Cadastrar Produto" onclick="produtos()">
+    <br>
+    <button onclick="apagar()">
+      Apagar todos os Produtos
+    </button>
+                <button onclick="window.open('index.html','_self');">
+      Voltar
+    </button>
+    <p>
+      Produtos já cadastrados:
+    </p>
+    <p id="produtosexistentes"/>
+      
+
+  </body>
+</html>
